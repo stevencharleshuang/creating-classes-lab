@@ -1,3 +1,5 @@
+package Animal;
+
 public class Animal {
     private int numLegs;
     private int topSpeed;

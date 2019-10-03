@@ -1,10 +1,10 @@
-// import Animal class
+package Animal;// import Animal.Animal class
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //Instantiate new Animal
+        //Instantiate new Animal.Animal
         Animal animal = new Animal(4, 10, false, "Penguin");
 
         String name;
