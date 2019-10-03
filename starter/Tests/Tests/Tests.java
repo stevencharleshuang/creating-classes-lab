@@ -43,6 +43,7 @@ public class Tests {
         animal.setTopSpeed(20);
         animal.setEndangered(false);
         animal.setName("Penguin");
+
         assertEquals(2, animal.getNumLegs());
         assertEquals(20, animal.getTopSpeed());
         assertEquals(false, animal.isEndangered());
