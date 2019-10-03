@@ -32,5 +32,12 @@ public class Main {
         System.out.println(topSpeed);
 
         System.out.println(animal.getFact());
+
+        Animal elephant = new Animal(4, 25, false, "Elephant");
+        Animal lion = new Animal(4, 50, false, "Lion");
+
+        System.out.println(elephant.getFact());
+        System.out.println(lion.getFact());
+
     }
 }
